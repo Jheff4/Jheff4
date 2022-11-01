@@ -24,6 +24,6 @@
 
 <img align="left" width="500rem" src="https://github-readme-stats.vercel.app/api?username=jheff4&show_icons=true&theme=nord" />
 
-<img align="right" height="270rem" width="500rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jheff4&layout=compact&theme=nord&langs_count=8" />
+<img align="right" height="250rem" width="500rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jheff4&layout=compact&theme=nord&langs_count=8" />
 
 <img align="left" width="500rem" src="https://github-readme-streak-stats.herokuapp.com/?user=jheff4&theme=nord" alt="jheff4" />
