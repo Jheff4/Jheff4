@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://twitter.com/_Etinosa_" target="blank"><img src="https://img.shields.io/twitter/follow/_etinosa_?logo=twitter&style=for-the-badge" alt="etinosa" /></a> </p>
 
-- 🌱 I’m currently learning **React, Web3 Development**
+- 🌱 I’m currently learning **Web3 Development**
 
 - 💬 Ask me about **JavaScript, TypeScript**
 
