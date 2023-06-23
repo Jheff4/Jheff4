@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently buidling - **Web2/Web3 Development, DeFi**
 
-- 💬 Ask me about **JavaScript, TypeScript**
+- 💬 Ask me about **DeFi, TypeScript**
 
 - 📫 How to reach me **ogbevoenetinosa@gmail.com**
 
