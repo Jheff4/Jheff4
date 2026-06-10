@@ -1,0 +1,51 @@
+name: Update site metrics
+
+on:
+  schedule:
+    - cron: "0 */3 * * *" # Regenerate every 3 hours
+  push:
+    paths:
+      - ".github/workflows/metrics.yml" # Re-run when this file changes
+  workflow_dispatch: # Allow manual runs from the Actions tab
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # ⚠️ Requires a Personal Access Token saved as a repo secret
+          #    named METRICS_TOKEN — see setup instructions
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jheff4
+          filename: metrics.svg
+          template: classic
+          config_timezone: Africa/Lagos
+
+          # Base sections: recent activity, community stats, repo stats
+          base: header, activity, community, repositories
+
+          # Languages — includes "recently used" computed from your
+          # actual recent commits, so it shifts as your work shifts
+          plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_recent_days: 14
+
+          # Lines of code added/removed — moves with every commit
+          plugin_lines: yes
+
+          # Commit habits — what hours/days you build, from recent activity
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # Isometric commit calendar — intensity view, last 6 months
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
