@@ -36,13 +36,13 @@ jobs:
           # Base sections: recent activity, community stats, repo stats
           base: header, activity, community, repositories
 
-          # Languages — includes "recently used" computed from your
-          # actual recent commits, so it shifts as your work shifts
+          # Languages — computed across your repos
+          # NOTE: "recently-used" section removed — it has a crash bug
+          # (TypeError in recent.mjs) when commit events lack committer data
           plugin_languages: yes
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 8
-          plugin_languages_recent_days: 14
 
           # Lines of code added/removed — moves with every commit
           plugin_lines: yes
