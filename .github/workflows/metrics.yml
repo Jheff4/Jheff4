@@ -25,6 +25,14 @@ jobs:
           template: classic
           config_timezone: Africa/Lagos
 
+          # Resilience: don't fail the whole run if one plugin errors,
+          # and retry on transient GitHub API failures
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 120
+          output_action: commit
+          committer_message: "Update site metrics"
+
           # Base sections: recent activity, community stats, repo stats
           base: header, activity, community, repositories
 
