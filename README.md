@@ -81,10 +81,9 @@ const spec = {
 
 ## 🏗️ Site Progress
 
-> *Regenerated from the site office every 3 hours — measured, not estimated.*
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jheff4/jheff4/main/metrics.svg" alt="Site metrics" width="100%" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jheff4&show_icons=true&hide_border=true&hide_rank=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jheff4&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top languages" />
 </div>
 
 ### 🔥 Consecutive Days On Site
