@@ -24,7 +24,7 @@ const spec = {
   base: "Lagos, Nigeria 🇳🇬",
   discipline: "Software Engineering",
   activeSites: ["Web3 Infrastructure", "DeFi Protocols", "Fintech Rails"],
-  consultOn: ["DeFi", "Fintech", "TypeScript", "Smart Contracts"],
+  consultOn: ["DeFi", "Fintech", "System Design", "Smart Contracts"],
   buildingCode: "Strongly typed. Thoroughly tested. Built to last.",
 };
 ```
