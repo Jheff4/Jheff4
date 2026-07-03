@@ -117,7 +117,7 @@ const spec = {
 <br/>
 
 <div align="center">
-  <i>⚠️ This profile is a permanent construction zone — the best builds are never really finished</i>
+  <i>⚠️ This profile is a permanent construction zone — the best builds are never really finished.</i>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0D1117&height=110&section=footer" width="100%" alt="footer" />
